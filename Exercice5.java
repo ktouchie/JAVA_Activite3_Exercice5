@@ -10,12 +10,13 @@ class Exercice5 {
         if (n==0) {
             System.out.println("La factorielle de " + n + " est 1.");
         } else {
-            int x = 0
-            while (n>0) {
-                x=n*(n-1);
-                n=(n-1);
+            int a = n;
+            int x = 0;
+            while (a>1) {
+                x = (a*(a-1));
+                a=(a-1);
             }
-            System.out.println(x);
+            System.out.println("La factorielle de " + n + " est " + x);
         }
     }
 }
