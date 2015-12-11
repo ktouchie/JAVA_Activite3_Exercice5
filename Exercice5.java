@@ -10,8 +10,9 @@ class Exercice5 {
         if (n==0) {
             System.out.println("La factorielle de " + n + " est 1.");
         } else {
+            int x = 0
             while (n>0) {
-                var x=n*(n-1);
+                x=n*(n-1);
                 n=(n-1);
             }
             System.out.println(x);
