@@ -6,13 +6,13 @@ class Exercice5 {
         
         System.out.println("Veuillez saisir un nombre entier positif:");
             int n = sc.nextInt();
+            int x = n;
         
         if (n==0) {
             System.out.println("La factorielle de " + n + " est 1.");
         } else {
-            int x = n;
-            for (int i=x; i>0; i--) {
-                x = (x* (x-1))
+            for (int i=1; i<n; i++) {
+                x = (x*i);
             }
             System.out.println("La factorielle de " + n + " est " + x);
         }
